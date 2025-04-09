@@ -1,0 +1,30 @@
+$primary: #d32f2f;
+$secondary: #212121;
+$light: #f5f5f5;
+$dark: #ffffff;
+
+$font-family-base: 'Georgia', serif;
+$headings-font-family: 'Impact', sans-serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  background-color: $light;
+  color: $secondary;
+}
+
+.navbar, .footer {
+  background-color: $primary;
+  color: $dark;
+}
+
+.headline {
+  font-family: $headings-font-family;
+  text-transform: uppercase;
+  color: $primary;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
